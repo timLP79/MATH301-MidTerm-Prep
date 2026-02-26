@@ -2,8 +2,9 @@
 
 **BSU Spring 2026 | Section 001 | Tim Palacios (timpalacios)**
 
-This repository contains course materials and midterm study notes for MATH 301 at Boise State
-University. Source materials are the weekly quiz and WebWork PDFs from Weeks 1–7.
+This repository contains course materials, Python calculation notebooks, and midterm study notes
+for MATH 301 at Boise State University. Source materials are the weekly quiz and WebWork PDFs
+from Weeks 1–7, plus Jupyter notebooks used for in-class and homework calculations.
 
 ---
 
@@ -23,7 +24,7 @@ University. Source materials are the weekly quiz and WebWork PDFs from Weeks 1�
 
 ## Repository Contents
 
-### Course Materials (PDFs)
+### Course Materials (`pdfs/`)
 
 | File | Description |
 |---|---|
@@ -41,6 +42,25 @@ University. Source materials are the weekly quiz and WebWork PDFs from Weeks 1�
 | `Week 07 Quiz.pdf` | ERO matrices, invertibility |
 | `Exam info from Professor.pdf` | Official exam rules, dates, Respondus browser info |
 
+### Python Notebooks (`python-material/`)
+
+Jupyter notebooks used for calculations throughout the course. The WeBWorK midterm allows Python.
+
+| File | Description |
+|---|---|
+| `01 - Using Python in Linear Algebra.ipynb` | NumPy vs SymPy intro; exact fractions with `S()` |
+| `04 - Using Python to find RREF.ipynb` | `rref()[0]`, decimal rounding bug, `Rational` fix, `evalf()` |
+| `Solving Linear Systems.ipynb` | `linsolve()` — augmented matrix and equation styles |
+| `Conceptual Quiz.ipynb` | RREF applied to null space / conceptual problems |
+| `Week 1 WeBWork - Problem 9.ipynb` | Week 1 homework calculation |
+| `Week 2 Group Work.ipynb` | `linsolve()` examples from group activity |
+| `Week 2 WebWork.ipynb` | Week 2 homework solved with `linsolve()` |
+| `Week 3 WebWork.ipynb` | Week 3 homework solved with `linsolve()` |
+| `Week 4 WebWork.ipynb` | Decimal matrix RREF with `Rational` fix |
+| `Week 5 Webwork.ipynb` | Fundamental subspaces via `rref()` |
+
+See [`study-notes/08-python-linear-algebra.md`](study-notes/08-python-linear-algebra.md) for a full study guide covering all notebook material.
+
 ### Study Notes (`study-notes/`)
 
 Generated from the course materials above. See [`study-notes/`](study-notes/) for all files.
@@ -55,6 +75,7 @@ Generated from the course materials above. See [`study-notes/`](study-notes/) fo
 | [`05-fundamental-subspaces.md`](study-notes/05-fundamental-subspaces.md) | col(A), row(A), null(A); rank-nullity | 5 ⭐ |
 | [`06-linear-transformations.md`](study-notes/06-linear-transformations.md) | T: Rⁿ→Rᵐ; linearity; kernel; image | 6 ⭐ |
 | [`07-invertibility-ero-matrices.md`](study-notes/07-invertibility-ero-matrices.md) | ERO matrices; invertible transformations | 7 ⭐ |
+| [`08-python-linear-algebra.md`](study-notes/08-python-linear-algebra.md) | SymPy/NumPy tools for WeBWorK exam | All |
 
 ⭐ = highest priority for midterm (Weeks 5–7 are hardest)
 
@@ -68,7 +89,8 @@ Generated from the course materials above. See [`study-notes/`](study-notes/) fo
 4. `04-independence-span-basis.md` — foundation for everything in weeks 5–7
 5. `03-vectors-subspaces.md` — subspace 3-condition test
 6. `01-linear-systems.md` + `02-row-operations.md` — earlier material, quick review
-7. `00-cheat-sheet.md` — read the night before; **print and bring to the exam**
+7. `08-python-linear-algebra.md` — review before the WeBWorK exam (Thursday 3/5)
+8. `00-cheat-sheet.md` — read the night before; **print and bring to the exam**
 
 ---
 
